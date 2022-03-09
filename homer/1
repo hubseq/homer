@@ -1,0 +1,556 @@
+$ conda install -c bioconda macs2
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/miniconda3
+
+  added / updated specs:
+    - macs2
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _r-mutex-1.0.0             |      anacondar_1           3 KB
+    ca-certificates-2022.2.1   |       h06a4308_0         122 KB
+    cairo-1.16.0               |       hf32fb01_1         1.0 MB
+    fribidi-1.0.10             |       h7b6447c_0         103 KB
+    graphite2-1.3.14           |       h23475e2_0          99 KB
+    harfbuzz-2.8.1             |       h6f93f22_0         1.1 MB
+    macs2-2.2.7.1              |   py37h8902056_4         1.7 MB  bioconda
+    pango-1.45.3               |       hd140c19_0         361 KB
+    pixman-0.40.0              |       h7f8727e_1         373 KB
+    r-base-3.2.2               |                0        18.9 MB
+    ------------------------------------------------------------
+                                           Total:        23.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  _r-mutex           pkgs/r/linux-64::_r-mutex-1.0.0-anacondar_1
+  cairo              pkgs/main/linux-64::cairo-1.16.0-hf32fb01_1
+  fribidi            pkgs/main/linux-64::fribidi-1.0.10-h7b6447c_0
+  graphite2          pkgs/main/linux-64::graphite2-1.3.14-h23475e2_0
+  harfbuzz           pkgs/main/linux-64::harfbuzz-2.8.1-h6f93f22_0
+  libgcc             pkgs/main/linux-64::libgcc-7.2.0-h69d50b8_2
+  macs2              bioconda/linux-64::macs2-2.2.7.1-py37h8902056_4
+  pango              pkgs/main/linux-64::pango-1.45.3-hd140c19_0
+  pixman             pkgs/main/linux-64::pixman-0.40.0-h7f8727e_1
+  r-base             pkgs/r/linux-64::r-base-3.2.2-0
+
+The following packages will be UPDATED:
+
+  ca-certificates    conda-forge::ca-certificates-2021.10.~ --> pkgs/main::ca-certificates-2022.2.1-h06a4308_0
+  certifi            conda-forge::certifi-2021.10.8-py37h8~ --> pkgs/main::certifi-2021.10.8-py37h06a4308_2
+  openssl            conda-forge::openssl-1.1.1l-h7f98852_0 --> pkgs/main::openssl-1.1.1m-h7f8727e_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+harfbuzz-2.8.1       | 1.1 MB    |            |   0% harfbuzz-2.8.1       | 1.1 MB    | ########## | 100% harfbuzz-2.8.1       | 1.1 MB    | ########## | 100% 
+cairo-1.16.0         | 1.0 MB    |            |   0% cairo-1.16.0         | 1.0 MB    | ########## | 100% cairo-1.16.0         | 1.0 MB    | ########## | 100% 
+pango-1.45.3         | 361 KB    |            |   0% pango-1.45.3         | 361 KB    | ########## | 100% pango-1.45.3         | 361 KB    | ########## | 100% 
+_r-mutex-1.0.0       | 3 KB      |            |   0% _r-mutex-1.0.0       | 3 KB      | ########## | 100% _r-mutex-1.0.0       | 3 KB      | ########## | 100% 
+ca-certificates-2022 | 122 KB    |            |   0% ca-certificates-2022 | 122 KB    | ########## | 100% ca-certificates-2022 | 122 KB    | ########## | 100% 
+fribidi-1.0.10       | 103 KB    |            |   0% fribidi-1.0.10       | 103 KB    | ########## | 100% fribidi-1.0.10       | 103 KB    | ########## | 100% 
+graphite2-1.3.14     | 99 KB     |            |   0% graphite2-1.3.14     | 99 KB     | ########## | 100% graphite2-1.3.14     | 99 KB     | ########## | 100% 
+r-base-3.2.2         | 18.9 MB   |            |   0% r-base-3.2.2         | 18.9 MB   | ##1        |  22% r-base-3.2.2         | 18.9 MB   | #####6     |  56% r-base-3.2.2         | 18.9 MB   | ########## | 100% r-base-3.2.2         | 18.9 MB   | ########## | 100% 
+macs2-2.2.7.1        | 1.7 MB    |            |   0% macs2-2.2.7.1        | 1.7 MB    |            |   1% macs2-2.2.7.1        | 1.7 MB    | ########## | 100% macs2-2.2.7.1        | 1.7 MB    | ########## | 100% 
+pixman-0.40.0        | 373 KB    |            |   0% pixman-0.40.0        | 373 KB    | ########## | 100% pixman-0.40.0        | 373 KB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Tue Mar 8 22:25:05 UTC 2022
+--------
+conda install -c bioconda homer
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/miniconda3
+
+  added / updated specs:
+    - homer
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    homer-4.11                 | pl5262h7d875b9_5        51.4 MB  bioconda
+    unzip-6.0                  |       h611a1e1_0          87 KB
+    wget-1.20.1                |       h20c2e04_0         818 KB
+    ------------------------------------------------------------
+                                           Total:        52.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  homer              bioconda/linux-64::homer-4.11-pl5262h7d875b9_5
+  unzip              pkgs/main/linux-64::unzip-6.0-h611a1e1_0
+  wget               pkgs/main/linux-64::wget-1.20.1-h20c2e04_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+wget-1.20.1          | 818 KB    |            |   0% wget-1.20.1          | 818 KB    | ########## | 100% wget-1.20.1          | 818 KB    | ########## | 100% 
+homer-4.11           | 51.4 MB   |            |   0% homer-4.11           | 51.4 MB   |            |   0% homer-4.11           | 51.4 MB   | 9          |  10% homer-4.11           | 51.4 MB   | ##2        |  23% homer-4.11           | 51.4 MB   | ###1       |  32% homer-4.11           | 51.4 MB   | ####2      |  42% homer-4.11           | 51.4 MB   | #####1     |  52% homer-4.11           | 51.4 MB   | ######3    |  64% homer-4.11           | 51.4 MB   | #######4   |  74% homer-4.11           | 51.4 MB   | ########3  |  84% homer-4.11           | 51.4 MB   | #########8 |  98% homer-4.11           | 51.4 MB   | ########## | 100% 
+unzip-6.0            | 87 KB     |            |   0% unzip-6.0            | 87 KB     | #8         |  18% unzip-6.0            | 87 KB     | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Tue Mar 8 22:25:05 UTC 2022
+--------
+$ conda install -c bioconda bioconductor-edger
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: ...working... failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/miniconda3
+
+  added / updated specs:
+    - bioconductor-edger
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bioconductor-edger-3.14.0  |                0         1.7 MB  bioconda
+    bioconductor-limma-3.28.10 |                0         2.0 MB  bioconda
+    r-3.2.2                    |                0           2 KB
+    r-boot-1.3_17              |        r3.2.2_0a         559 KB
+    r-class-7.3_14             |        r3.2.2_0a          78 KB
+    r-cluster-2.0.3            |        r3.2.2_0a         447 KB
+    r-codetools-0.2_14         |        r3.2.2_0a          44 KB
+    r-foreign-0.8_66           |        r3.2.2_0a         199 KB
+    r-kernsmooth-2.23_15       |        r3.2.2_0a          79 KB
+    r-lattice-0.20_33          |        r3.2.2_0a         673 KB
+    r-mass-7.3_45              |        r3.2.2_0a         989 KB
+    r-matrix-1.2_2             |        r3.2.2_0a         2.8 MB
+    r-mgcv-1.8_9               |        r3.2.2_0a         1.8 MB
+    r-nlme-3.1_122             |        r3.2.2_0a         1.9 MB
+    r-nnet-7.3_11              |        r3.2.2_0a          93 KB
+    r-recommended-3.2.2        |         r3.2.2_0           1 KB
+    r-rpart-4.1_10             |        r3.2.2_0a         830 KB
+    r-spatial-7.3_11           |        r3.2.2_0a         117 KB
+    r-survival-2.38_3          |        r3.2.2_0a         4.2 MB
+    ------------------------------------------------------------
+                                           Total:        18.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  bioconductor-edger bioconda/linux-64::bioconductor-edger-3.14.0-0
+  bioconductor-limma bioconda/linux-64::bioconductor-limma-3.28.10-0
+  r                  pkgs/r/linux-64::r-3.2.2-0
+  r-boot             pkgs/r/linux-64::r-boot-1.3_17-r3.2.2_0a
+  r-class            pkgs/r/linux-64::r-class-7.3_14-r3.2.2_0a
+  r-cluster          pkgs/r/linux-64::r-cluster-2.0.3-r3.2.2_0a
+  r-codetools        pkgs/r/linux-64::r-codetools-0.2_14-r3.2.2_0a
+  r-foreign          pkgs/r/linux-64::r-foreign-0.8_66-r3.2.2_0a
+  r-kernsmooth       pkgs/r/linux-64::r-kernsmooth-2.23_15-r3.2.2_0a
+  r-lattice          pkgs/r/linux-64::r-lattice-0.20_33-r3.2.2_0a
+  r-mass             pkgs/r/linux-64::r-mass-7.3_45-r3.2.2_0a
+  r-matrix           pkgs/r/linux-64::r-matrix-1.2_2-r3.2.2_0a
+  r-mgcv             pkgs/r/linux-64::r-mgcv-1.8_9-r3.2.2_0a
+  r-nlme             pkgs/r/linux-64::r-nlme-3.1_122-r3.2.2_0a
+  r-nnet             pkgs/r/linux-64::r-nnet-7.3_11-r3.2.2_0a
+  r-recommended      pkgs/r/linux-64::r-recommended-3.2.2-r3.2.2_0
+  r-rpart            pkgs/r/linux-64::r-rpart-4.1_10-r3.2.2_0a
+  r-spatial          pkgs/r/linux-64::r-spatial-7.3_11-r3.2.2_0a
+  r-survival         pkgs/r/linux-64::r-survival-2.38_3-r3.2.2_0a
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+r-spatial-7.3_11     | 117 KB    |            |   0% r-spatial-7.3_11     | 117 KB    | ########## | 100% r-spatial-7.3_11     | 117 KB    | ########## | 100% 
+bioconductor-limma-3 | 2.0 MB    |            |   0% bioconductor-limma-3 | 2.0 MB    |            |   1% bioconductor-limma-3 | 2.0 MB    | ########## | 100% bioconductor-limma-3 | 2.0 MB    | ########## | 100% 
+r-matrix-1.2_2       | 2.8 MB    |            |   0% r-matrix-1.2_2       | 2.8 MB    | 9          |   9% r-matrix-1.2_2       | 2.8 MB    | ########## | 100% r-matrix-1.2_2       | 2.8 MB    | ########## | 100% 
+r-nlme-3.1_122       | 1.9 MB    |            |   0% r-nlme-3.1_122       | 1.9 MB    | ########## | 100% 
+r-class-7.3_14       | 78 KB     |            |   0% r-class-7.3_14       | 78 KB     | ########## | 100% 
+bioconductor-edger-3 | 1.7 MB    |            |   0% bioconductor-edger-3 | 1.7 MB    |            |   1% bioconductor-edger-3 | 1.7 MB    | ##3        |  23% bioconductor-edger-3 | 1.7 MB    | ########1  |  81% bioconductor-edger-3 | 1.7 MB    | ########## | 100% 
+r-lattice-0.20_33    | 673 KB    |            |   0% r-lattice-0.20_33    | 673 KB    | ########## | 100% 
+r-foreign-0.8_66     | 199 KB    |            |   0% r-foreign-0.8_66     | 199 KB    | ########## | 100% 
+r-cluster-2.0.3      | 447 KB    |            |   0% r-cluster-2.0.3      | 447 KB    | ########## | 100% 
+r-boot-1.3_17        | 559 KB    |            |   0% r-boot-1.3_17        | 559 KB    | ########## | 100% 
+r-kernsmooth-2.23_15 | 79 KB     |            |   0% r-kernsmooth-2.23_15 | 79 KB     | ########## | 100% 
+r-nnet-7.3_11        | 93 KB     |            |   0% r-nnet-7.3_11        | 93 KB     | ########## | 100% 
+r-mass-7.3_45        | 989 KB    |            |   0% r-mass-7.3_45        | 989 KB    | ########## | 100% 
+r-mgcv-1.8_9         | 1.8 MB    |            |   0% r-mgcv-1.8_9         | 1.8 MB    | ########## | 100% 
+r-survival-2.38_3    | 4.2 MB    |            |   0% r-survival-2.38_3    | 4.2 MB    | ########## | 100% r-survival-2.38_3    | 4.2 MB    | ########## | 100% 
+r-codetools-0.2_14   | 44 KB     |            |   0% r-codetools-0.2_14   | 44 KB     | ########## | 100% 
+r-recommended-3.2.2  | 1 KB      |            |   0% r-recommended-3.2.2  | 1 KB      | ########## | 100% 
+r-3.2.2              | 2 KB      |            |   0% r-3.2.2              | 2 KB      | ########## | 100% 
+r-rpart-4.1_10       | 830 KB    |            |   0% r-rpart-4.1_10       | 830 KB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Tue Mar 8 22:25:05 UTC 2022
+--------
+$ conda install -c bioconda bioconductor-deseq2 
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: ...working... failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/miniconda3
+
+  added / updated specs:
+    - bioconductor-deseq2
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bioconductor-annotate-1.50.0|                0         1.8 MB  bioconda
+    bioconductor-annotationdbi-1.32.3|                0         4.4 MB  bioconda
+    bioconductor-biobase-2.32.0|                0         1.6 MB  bioconda
+    bioconductor-biocgenerics-0.18.0|         r3.2.2_0         502 KB  bioconda
+    bioconductor-biocparallel-1.4.3|         r3.2.2_0         638 KB  bioconda
+    bioconductor-deseq2-1.10.1 |         r3.2.2_0         1.4 MB  bioconda
+    bioconductor-genefilter-1.52.1|         r3.2.2_0         1.4 MB  bioconda
+    bioconductor-geneplotter-1.48.0|                0         1.4 MB  bioconda
+    bioconductor-genomeinfodb-1.6.3|                0        18.7 MB  bioconda
+    bioconductor-genomicranges-1.22.4|                0         1.5 MB  bioconda
+    bioconductor-iranges-2.4.8 |                0         1.6 MB  bioconda
+    bioconductor-s4vectors-0.8.11|                0         909 KB  bioconda
+    bioconductor-summarizedexperiment-1.0.2|                1         1.3 MB  bioconda
+    bioconductor-xvector-0.8.0 |                0         378 KB  bioconda
+    gsl-2.4                    |       h14c3975_4         1.8 MB
+    r-acepack-1.3_3.3          |        r3.2.2_1a          50 KB
+    r-colorspace-1.2_6         |        r3.2.2_0a         346 KB
+    r-dbi-0.3.1                |        r3.2.2_2a         156 KB
+    r-dichromat-2.0_0          |        r3.2.2_2a         143 KB
+    r-digest-0.6.9             |         r3.2.2_0         110 KB  bioconda
+    r-formula-1.2_1            |        r3.2.2_0a         156 KB
+    r-futile.logger-1.4.1      |         r3.2.2_0          83 KB  bioconda
+    r-futile.options-1.0.0     |         r3.2.2_0          16 KB  bioconda
+    r-ggplot2-2.1.0            |         r3.2.2_0         1.9 MB  bioconda
+    r-gridextra-2.0.0          |        r3.2.2_0a         245 KB
+    r-gtable-0.1.2             |        r3.2.2_2a          60 KB
+    r-hmisc-3.17_0             |        r3.2.2_0a         1.5 MB
+    r-labeling-0.3             |        r3.2.2_1a          39 KB
+    r-lambda.r-1.1.7           |         r3.2.2_0          65 KB  bioconda
+    r-latticeextra-0.6_26      |        r3.2.2_2a         2.0 MB
+    r-locfit-1.5_9.1           |         r3.2.2_0         420 KB  bioconda
+    r-magrittr-1.5             |         r3.2.2_0         154 KB  bioconda
+    r-munsell-0.4.2            |        r3.2.2_1a         115 KB
+    r-plyr-1.8.3               |        r3.2.2_0a         712 KB
+    r-proto-0.3_10             |        r3.2.2_1a         444 KB
+    r-rcolorbrewer-1.1_2       |        r3.2.2_2a          25 KB
+    r-rcpp-0.12.2              |        r3.2.2_0a         2.0 MB
+    r-rcpparmadillo-0.6.200.2.0|        r3.2.2_0a         795 KB
+    r-reshape2-1.4.1           |        r3.2.2_1a          92 KB
+    r-rsqlite-1.0.0            |        r3.2.2_1a         635 KB
+    r-scales-0.3.0             |        r3.2.2_0a         195 KB
+    r-snow-0.4_1               |         r3.2.2_0          62 KB  bioconda
+    r-stringi-1.0_1            |        r3.2.2_0a         9.0 MB
+    r-stringr-1.0.0            |        r3.2.2_0a          75 KB
+    r-xml-3.98_1.3             |        r3.2.2_0a         1.6 MB
+    r-xtable-1.8_0             |        r3.2.2_0a         314 KB
+    ------------------------------------------------------------
+                                           Total:        62.5 MB
+
+The following NEW packages will be INSTALLED:
+
+  bioconductor-anno~ bioconda/linux-64::bioconductor-annotate-1.50.0-0
+  bioconductor-anno~ bioconda/linux-64::bioconductor-annotationdbi-1.32.3-0
+  bioconductor-biob~ bioconda/linux-64::bioconductor-biobase-2.32.0-0
+  bioconductor-bioc~ bioconda/linux-64::bioconductor-biocgenerics-0.18.0-r3.2.2_0
+  bioconductor-bioc~ bioconda/linux-64::bioconductor-biocparallel-1.4.3-r3.2.2_0
+  bioconductor-dese~ bioconda/linux-64::bioconductor-deseq2-1.10.1-r3.2.2_0
+  bioconductor-gene~ bioconda/linux-64::bioconductor-genefilter-1.52.1-r3.2.2_0
+  bioconductor-gene~ bioconda/linux-64::bioconductor-geneplotter-1.48.0-0
+  bioconductor-geno~ bioconda/linux-64::bioconductor-genomeinfodb-1.6.3-0
+  bioconductor-geno~ bioconda/linux-64::bioconductor-genomicranges-1.22.4-0
+  bioconductor-iran~ bioconda/linux-64::bioconductor-iranges-2.4.8-0
+  bioconductor-s4ve~ bioconda/linux-64::bioconductor-s4vectors-0.8.11-0
+  bioconductor-summ~ bioconda/linux-64::bioconductor-summarizedexperiment-1.0.2-1
+  bioconductor-xvec~ bioconda/linux-64::bioconductor-xvector-0.8.0-0
+  gsl                pkgs/main/linux-64::gsl-2.4-h14c3975_4
+  r-acepack          pkgs/r/linux-64::r-acepack-1.3_3.3-r3.2.2_1a
+  r-colorspace       pkgs/r/linux-64::r-colorspace-1.2_6-r3.2.2_0a
+  r-dbi              pkgs/r/linux-64::r-dbi-0.3.1-r3.2.2_2a
+  r-dichromat        pkgs/r/linux-64::r-dichromat-2.0_0-r3.2.2_2a
+  r-digest           bioconda/linux-64::r-digest-0.6.9-r3.2.2_0
+  r-formula          pkgs/r/linux-64::r-formula-1.2_1-r3.2.2_0a
+  r-futile.logger    bioconda/linux-64::r-futile.logger-1.4.1-r3.2.2_0
+  r-futile.options   bioconda/linux-64::r-futile.options-1.0.0-r3.2.2_0
+  r-ggplot2          bioconda/linux-64::r-ggplot2-2.1.0-r3.2.2_0
+  r-gridextra        pkgs/r/linux-64::r-gridextra-2.0.0-r3.2.2_0a
+  r-gtable           pkgs/r/linux-64::r-gtable-0.1.2-r3.2.2_2a
+  r-hmisc            pkgs/r/linux-64::r-hmisc-3.17_0-r3.2.2_0a
+  r-labeling         pkgs/r/linux-64::r-labeling-0.3-r3.2.2_1a
+  r-lambda.r         bioconda/linux-64::r-lambda.r-1.1.7-r3.2.2_0
+  r-latticeextra     pkgs/r/linux-64::r-latticeextra-0.6_26-r3.2.2_2a
+  r-locfit           bioconda/linux-64::r-locfit-1.5_9.1-r3.2.2_0
+  r-magrittr         bioconda/linux-64::r-magrittr-1.5-r3.2.2_0
+  r-munsell          pkgs/r/linux-64::r-munsell-0.4.2-r3.2.2_1a
+  r-plyr             pkgs/r/linux-64::r-plyr-1.8.3-r3.2.2_0a
+  r-proto            pkgs/r/linux-64::r-proto-0.3_10-r3.2.2_1a
+  r-rcolorbrewer     pkgs/r/linux-64::r-rcolorbrewer-1.1_2-r3.2.2_2a
+  r-rcpp             pkgs/r/linux-64::r-rcpp-0.12.2-r3.2.2_0a
+  r-rcpparmadillo    pkgs/r/linux-64::r-rcpparmadillo-0.6.200.2.0-r3.2.2_0a
+  r-reshape2         pkgs/r/linux-64::r-reshape2-1.4.1-r3.2.2_1a
+  r-rsqlite          pkgs/r/linux-64::r-rsqlite-1.0.0-r3.2.2_1a
+  r-scales           pkgs/r/linux-64::r-scales-0.3.0-r3.2.2_0a
+  r-snow             bioconda/linux-64::r-snow-0.4_1-r3.2.2_0
+  r-stringi          pkgs/r/linux-64::r-stringi-1.0_1-r3.2.2_0a
+  r-stringr          pkgs/r/linux-64::r-stringr-1.0.0-r3.2.2_0a
+  r-xml              pkgs/r/linux-64::r-xml-3.98_1.3-r3.2.2_0a
+  r-xtable           pkgs/r/linux-64::r-xtable-1.8_0-r3.2.2_0a
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+bioconductor-annotat | 1.8 MB    |            |   0% bioconductor-annotat | 1.8 MB    |            |   1% bioconductor-annotat | 1.8 MB    | #########3 |  94% bioconductor-annotat | 1.8 MB    | ########## | 100% 
+r-dichromat-2.0_0    | 143 KB    |            |   0% r-dichromat-2.0_0    | 143 KB    | ########## | 100% r-dichromat-2.0_0    | 143 KB    | ########## | 100% 
+r-magrittr-1.5       | 154 KB    |            |   0% r-magrittr-1.5       | 154 KB    | #          |  10% r-magrittr-1.5       | 154 KB    | ########## | 100% 
+r-hmisc-3.17_0       | 1.5 MB    |            |   0% r-hmisc-3.17_0       | 1.5 MB    | 1          |   1% r-hmisc-3.17_0       | 1.5 MB    | ########## | 100% 
+r-munsell-0.4.2      | 115 KB    |            |   0% r-munsell-0.4.2      | 115 KB    | ########## | 100% 
+r-futile.options-1.0 | 16 KB     |            |   0% r-futile.options-1.0 | 16 KB     | ########## | 100% 
+r-acepack-1.3_3.3    | 50 KB     |            |   0% r-acepack-1.3_3.3    | 50 KB     | ###1       |  32% r-acepack-1.3_3.3    | 50 KB     | ########## | 100% 
+r-futile.logger-1.4. | 83 KB     |            |   0% r-futile.logger-1.4. | 83 KB     | ########## | 100% 
+r-latticeextra-0.6_2 | 2.0 MB    |            |   0% r-latticeextra-0.6_2 | 2.0 MB    |            |   1% r-latticeextra-0.6_2 | 2.0 MB    | #####8     |  59% r-latticeextra-0.6_2 | 2.0 MB    | ########## | 100% 
+r-colorspace-1.2_6   | 346 KB    |            |   0% r-colorspace-1.2_6   | 346 KB    | ########## | 100% 
+bioconductor-iranges | 1.6 MB    |            |   0% bioconductor-iranges | 1.6 MB    | ########## | 100% bioconductor-iranges | 1.6 MB    | ########## | 100% 
+r-lambda.r-1.1.7     | 65 KB     |            |   0% r-lambda.r-1.1.7     | 65 KB     | ########## | 100% 
+r-rcpp-0.12.2        | 2.0 MB    |            |   0% r-rcpp-0.12.2        | 2.0 MB    | ########## | 100% r-rcpp-0.12.2        | 2.0 MB    | ########## | 100% 
+bioconductor-genefil | 1.4 MB    |            |   0% bioconductor-genefil | 1.4 MB    | 1          |   1% bioconductor-genefil | 1.4 MB    | ###1       |  31% bioconductor-genefil | 1.4 MB    | ########## | 100% bioconductor-genefil | 1.4 MB    | ########## | 100% 
+bioconductor-summari | 1.3 MB    |            |   0% bioconductor-summari | 1.3 MB    | 1          |   1% bioconductor-summari | 1.3 MB    | ########## | 100% bioconductor-summari | 1.3 MB    | ########## | 100% 
+r-snow-0.4_1         | 62 KB     |            |   0% r-snow-0.4_1         | 62 KB     | ########## | 100% 
+r-rcolorbrewer-1.1_2 | 25 KB     |            |   0% r-rcolorbrewer-1.1_2 | 25 KB     | ########## | 100% 
+r-labeling-0.3       | 39 KB     |            |   0% r-labeling-0.3       | 39 KB     | ########## | 100% 
+bioconductor-genomic | 1.5 MB    |            |   0% bioconductor-genomic | 1.5 MB    | ########## | 100% bioconductor-genomic | 1.5 MB    | ########## | 100% 
+r-stringi-1.0_1      | 9.0 MB    |            |   0% r-stringi-1.0_1      | 9.0 MB    | #########4 |  94% r-stringi-1.0_1      | 9.0 MB    | ########## | 100% 
+r-formula-1.2_1      | 156 KB    |            |   0% r-formula-1.2_1      | 156 KB    | ########## | 100% r-formula-1.2_1      | 156 KB    | ########## | 100% 
+bioconductor-biobase | 1.6 MB    |            |   0% bioconductor-biobase | 1.6 MB    | 1          |   1% bioconductor-biobase | 1.6 MB    | ########## | 100% bioconductor-biobase | 1.6 MB    | ########## | 100% 
+bioconductor-s4vecto | 909 KB    |            |   0% bioconductor-s4vecto | 909 KB    | ########## | 100% bioconductor-s4vecto | 909 KB    | ########## | 100% 
+bioconductor-genomei | 18.7 MB   |            |   0% bioconductor-genomei | 18.7 MB   | ###4       |  34% bioconductor-genomei | 18.7 MB   | ########## | 100% bioconductor-genomei | 18.7 MB   | ########## | 100% 
+r-rsqlite-1.0.0      | 635 KB    |            |   0% r-rsqlite-1.0.0      | 635 KB    | 2          |   3% r-rsqlite-1.0.0      | 635 KB    | ########## | 100% 
+r-digest-0.6.9       | 110 KB    |            |   0% r-digest-0.6.9       | 110 KB    | #4         |  15% r-digest-0.6.9       | 110 KB    | ########## | 100% 
+r-stringr-1.0.0      | 75 KB     |            |   0% r-stringr-1.0.0      | 75 KB     | ########## | 100% 
+gsl-2.4              | 1.8 MB    |            |   0% gsl-2.4              | 1.8 MB    | ########## | 100% gsl-2.4              | 1.8 MB    | ########## | 100% 
+bioconductor-deseq2- | 1.4 MB    |            |   0% bioconductor-deseq2- | 1.4 MB    | 1          |   1% bioconductor-deseq2- | 1.4 MB    | ########## | 100% bioconductor-deseq2- | 1.4 MB    | ########## | 100% 
+r-scales-0.3.0       | 195 KB    |            |   0% r-scales-0.3.0       | 195 KB    | ########## | 100% r-scales-0.3.0       | 195 KB    | ########## | 100% 
+r-plyr-1.8.3         | 712 KB    |            |   0% r-plyr-1.8.3         | 712 KB    | ########## | 100% 
+bioconductor-biocpar | 638 KB    |            |   0% bioconductor-biocpar | 638 KB    | ########## | 100% bioconductor-biocpar | 638 KB    | ########## | 100% 
+r-reshape2-1.4.1     | 92 KB     |            |   0% r-reshape2-1.4.1     | 92 KB     | ########## | 100% 
+r-dbi-0.3.1          | 156 KB    |            |   0% r-dbi-0.3.1          | 156 KB    | ########## | 100% r-dbi-0.3.1          | 156 KB    | ########## | 100% 
+bioconductor-annotat | 4.4 MB    |            |   0% bioconductor-annotat | 4.4 MB    |            |   0% bioconductor-annotat | 4.4 MB    | ########## | 100% bioconductor-annotat | 4.4 MB    | ########## | 100% 
+bioconductor-geneplo | 1.4 MB    |            |   0% bioconductor-geneplo | 1.4 MB    | 1          |   1% bioconductor-geneplo | 1.4 MB    | ########2  |  83% bioconductor-geneplo | 1.4 MB    | ########## | 100% 
+r-gridextra-2.0.0    | 245 KB    |            |   0% r-gridextra-2.0.0    | 245 KB    | #######8   |  78% r-gridextra-2.0.0    | 245 KB    | ########## | 100% 
+r-xtable-1.8_0       | 314 KB    |            |   0% r-xtable-1.8_0       | 314 KB    | 5          |   5% r-xtable-1.8_0       | 314 KB    | ########## | 100% 
+r-rcpparmadillo-0.6. | 795 KB    |            |   0% r-rcpparmadillo-0.6. | 795 KB    | ######8    |  68% r-rcpparmadillo-0.6. | 795 KB    | ########## | 100% 
+r-ggplot2-2.1.0      | 1.9 MB    |            |   0% r-ggplot2-2.1.0      | 1.9 MB    |            |   1% r-ggplot2-2.1.0      | 1.9 MB    | ########## | 100% r-ggplot2-2.1.0      | 1.9 MB    | ########## | 100% 
+r-gtable-0.1.2       | 60 KB     |            |   0% r-gtable-0.1.2       | 60 KB     | ########## | 100% 
+r-xml-3.98_1.3       | 1.6 MB    |            |   0% r-xml-3.98_1.3       | 1.6 MB    |            |   1% r-xml-3.98_1.3       | 1.6 MB    | ########## | 100% 
+bioconductor-biocgen | 502 KB    |            |   0% bioconductor-biocgen | 502 KB    | ########## | 100% bioconductor-biocgen | 502 KB    | ########## | 100% 
+r-locfit-1.5_9.1     | 420 KB    |            |   0% r-locfit-1.5_9.1     | 420 KB    | 3          |   4% r-locfit-1.5_9.1     | 420 KB    | ########## | 100% 
+bioconductor-xvector | 378 KB    |            |   0% bioconductor-xvector | 378 KB    | 4          |   4% bioconductor-xvector | 378 KB    | ########## | 100% 
+r-proto-0.3_10       | 444 KB    |            |   0% r-proto-0.3_10       | 444 KB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Tue Mar 8 22:25:05 UTC 2022
+-------
+(base) [ec2-user@ip-10-88-1-53 HOMER]$ sudo perl configureHomer.pl -install
+
+	Current base directory for HOMER is /opt/HOMER/./
+
+Use of uninitialized value $ENV{"HOMER_DATA"} in concatenation (.) or string at configureHomer.pl line 161.
+Use of uninitialized value $ENV{"HOMER_DATA"} in concatenation (.) or string at configureHomer.pl line 166.
+--2022-03-08 23:16:13--  http://homer.ucsd.edu/homer/update.txt
+Resolving homer.ucsd.edu (homer.ucsd.edu)... 169.228.63.226
+Connecting to homer.ucsd.edu (homer.ucsd.edu)|169.228.63.226|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 17859 (17K) [text/plain]
+Saving to: ‘/update.txt’
+
+100%[===========================================================================================>] 17,859      --.-K/s   in 0.03s   
+
+2022-03-08 23:16:13 (585 KB/s) - ‘/update.txt’ saved [17859/17859]
+
+	Updating Settings...
+	Packages to Install...
+		homer -> v4.11.1
+
+	Checking for standard utilities and 3rd party software:
+
+		(Note: seqlogo, gs, and blat no longer required)
+	Checking for wget... /bin/wget
+	Checking for cut... /bin/cut
+	Checking for gcc... /bin/gcc
+	Checking for g++... /bin/g++
+	Checking for zip... /bin/zip
+	Checking for unzip... /bin/unzip
+	Checking for make... /bin/make
+	Checking for tar... /bin/tar
+	Checking for gunzip... /bin/gunzip
+	Checking for gzip... /bin/gzip
+
+	All auxilary programs found.
+
+	Installing: homer
+		Downloading...
+--2022-03-08 23:16:13--  http://homer.ucsd.edu/homer/data/software/homer.v4.11.1.zip
+Resolving homer.ucsd.edu (homer.ucsd.edu)... 169.228.63.226
+Connecting to homer.ucsd.edu (homer.ucsd.edu)|169.228.63.226|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 35954701 (34M) [application/zip]
+Saving to: ‘homer.package.zip’
+
+100%[===========================================================================================>] 35,954,701  43.0MB/s   in 0.8s   
+
+2022-03-08 23:16:14 (43.0 MB/s) - ‘homer.package.zip’ saved [35954701/35954701]
+
+		Unzipping...
+Use of uninitialized value $ENV{"HOMER_DATA"} in concatenation (.) or string at configureHomer.pl line 403.
+		Finished Installing homer
+
+Use of uninitialized value $ENV{"HOMER_DATA"} in concatenation (.) or string at configureHomer.pl line 412.
+(base) [ec2-user@ip-10-88-1-53 HOMER]$ l
+total 4.9M
+-rw-r--r--  1 root root 2.9K Jun  6  2013 README.txt
+-rw-r--r--  1 root root 4.8M Jun  6  2013 DoughnutDocumentation.pdf
+-rw-r--r--  1 root root  35K Jun  6  2013 COPYING
+-rw-r--r--  1 root root  26K Sep 24  2019 configureHomer.pl
+drwxr-xr-x 11 root root  12K Nov  3  2019 motifs
+drwxr-xr-x  3 root root 8.0K Nov  5  2019 bin
+drwxr-xr-x  4 root root 4.0K Nov  5  2019 cpp
+drwxr-xr-x  5 root root   49 Mar  8 23:16 data
+drwxr-xr-x  7 root root  288 Mar  8 23:16 update
+-------
+(base) [ec2-user@ip-10-88-1-53 HOMER]$ sudo perl configureHomer.pl -install mm10
+
+	Current base directory for HOMER is /opt/HOMER/./
+
+	Will install mm10
+--2022-03-08 23:18:53--  http://homer.ucsd.edu/homer/update.txt
+Resolving homer.ucsd.edu (homer.ucsd.edu)... 169.228.63.226
+Connecting to homer.ucsd.edu (homer.ucsd.edu)|169.228.63.226|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 17859 (17K) [text/plain]
+Saving to: ‘/opt/HOMER/.//update.txt’
+
+100%[===========================================================================================>] 17,859      --.-K/s   in 0.03s   
+
+2022-03-08 23:18:53 (581 KB/s) - ‘/opt/HOMER/.//update.txt’ saved [17859/17859]
+
+	Updating Settings...
+`wget -O 0.773540062437863.tmp http://homer.ucsd.edu/homer/configureHomer.pl`;
+--2022-03-08 23:18:53--  http://homer.ucsd.edu/homer/configureHomer.pl
+Resolving homer.ucsd.edu (homer.ucsd.edu)... 169.228.63.226
+Connecting to homer.ucsd.edu (homer.ucsd.edu)|169.228.63.226|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 27477 (27K) [application/x-perl]
+Saving to: ‘0.773540062437863.tmp’
+
+100%[===========================================================================================>] 27,477      --.-K/s   in 0.03s   
+
+2022-03-08 23:18:53 (976 KB/s) - ‘0.773540062437863.tmp’ saved [27477/27477]
+
+	configureHomer.pl script differs from one located at:
+			http://homer.ucsd.edu/homer/configureHomer.pl
+	HOMER will now replace the old one - to cancel hit control-C NOW!!!
+		(if you don't want to do this, or if it keeps updating for no reason, use -keepScript)
+		10
+		9
+		8
+		7
+		6
+		5
+		4
+		3
+		2
+		1
+`perl configureHomer.pl  -install mm10`
+
+	Current base directory for HOMER is /opt/HOMER/./
+
+	Will install mm10
+--2022-03-08 23:19:03--  http://homer.ucsd.edu/homer/update.txt
+Resolving homer.ucsd.edu (homer.ucsd.edu)... 169.228.63.226
+Connecting to homer.ucsd.edu (homer.ucsd.edu)|169.228.63.226|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 17859 (17K) [text/plain]
+Saving to: ‘/opt/HOMER/.//update.txt’
+
+100%[===========================================================================================>] 17,859      --.-K/s   in 0.03s   
+
+2022-03-08 23:19:04 (572 KB/s) - ‘/opt/HOMER/.//update.txt’ saved [17859/17859]
+
+	Updating Settings...
+`wget -O 0.41676832114263.tmp http://homer.ucsd.edu/homer/configureHomer.pl`;
+--2022-03-08 23:19:04--  http://homer.ucsd.edu/homer/configureHomer.pl
+Resolving homer.ucsd.edu (homer.ucsd.edu)... 169.228.63.226
+Connecting to homer.ucsd.edu (homer.ucsd.edu)|169.228.63.226|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 27477 (27K) [application/x-perl]
+Saving to: ‘0.41676832114263.tmp’
+
+100%[===========================================================================================>] 27,477      --.-K/s   in 0.03s   
+
+2022-03-08 23:19:04 (831 KB/s) - ‘0.41676832114263.tmp’ saved [27477/27477]
+
+	configureHomer.pl script is up-to-date
+		Installing/Updating Organism mouse (v6.3) for package mm10
+	Packages to Install...
+		mouse -> v6.3
+		mm10 -> 
+	Pausing for 3 seconds (hit ctrl-C to stop)
+	Installing: mouse
+		Downloading...
+--2022-03-08 23:19:07--  http://homer.ucsd.edu/homer/data/organisms/mouse.v6.3.zip
+Resolving homer.ucsd.edu (homer.ucsd.edu)... 169.228.63.226
+Connecting to homer.ucsd.edu (homer.ucsd.edu)|169.228.63.226|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43578911 (42M) [application/zip]
+Saving to: ‘homer.package.zip’
+
+100%[===========================================================================================>] 43,578,911  42.6MB/s   in 1.0s   
+
+2022-03-08 23:19:08 (42.6 MB/s) - ‘homer.package.zip’ saved [43578911/43578911]
+
+		Unzipping...
+		Finished Installing mouse
+
+	Installing: mm10
+		Downloading...
+--2022-03-08 23:19:09--  http://homer.ucsd.edu/homer/data/genomes/mm10.v6.4.zip
+Resolving homer.ucsd.edu (homer.ucsd.edu)... 169.228.63.226
+Connecting to homer.ucsd.edu (homer.ucsd.edu)|169.228.63.226|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1363484460 (1.3G) [application/zip]
+Saving to: ‘homer.package.zip’
+
+100%[=========================================================================================>] 1,363,484,460 90.0MB/s   in 15s    
+
+2022-03-08 23:19:24 (84.4 MB/s) - ‘homer.package.zip’ saved [1363484460/1363484460]
+
+		Unzipping...
+		Finished Installing mm10
+
+
+	Software Installed.  If not done so already, add the homer programs to your executable path.
+
+	Add this line to your .bash_profile or .bashrc file (or other depending on your shell):
+		PATH=$PATH:/opt/HOMER/.//bin/
+
+
+	Simply typing "findMotifs.pl" should work before running Homer.
+--------
